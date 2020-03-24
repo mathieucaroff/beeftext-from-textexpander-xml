@@ -1,0 +1,31 @@
+{
+   "name": "beeftext-from-textexpander-xml",
+   "version": "1.0.0",
+   "license": "ISC",
+   "scripts": {
+      "build": "parcel build src/page.html -d public -o index.html",
+      "test": "ava --verbose --watch"
+   },
+   "ava": {
+      "extensions": [
+         "ts"
+      ],
+      "require": [
+         "ts-node/register"
+      ],
+      "files": [
+         "src/**/*.test.ts"
+      ]
+   },
+   "devDependencies": {
+      "ava": "^3.5.0",
+      "parcel": "^1.12.4",
+      "ts-node": "^8.7.0",
+      "typescript": "^3.8.3"
+   },
+   "dependencies": {
+      "@types/plist": "^3.0.2",
+      "now": "^17.0.4",
+      "plist": "^3.0.1"
+   }
+}

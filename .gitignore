@@ -1,0 +1,19 @@
+# Folders
+/*/
+tmp/
+
+!/src/
+!/asset/
+!/cypress/
+
+# Files
+/.*
+*.log
+*.js
+
+!/.editorconfig
+!/.env
+!/.gitignore
+!/.now.json
+!/.prettier*
+!/.yarnrc
