@@ -2,9 +2,8 @@
 /*/
 tmp/
 
+!/doc/
 !/src/
-!/asset/
-!/cypress/
 
 # Files
 /.*
